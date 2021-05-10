@@ -1,0 +1,44 @@
+/* Преимущества */
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+
+  &__icon {
+  display: inline-flex;
+  background-color: #f5f4fa;
+  height: 120px;
+  width: 270px;
+  margin-bottom: 30px;
+  fill: var(--base-text-color);
+  justify-content: center;
+  align-items: center;
+}
+
+  &__title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+  &__text {
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+  &__item {
+  width: 270px;
+}
+}
+
+.features__item {
+  width: 270px;
+
+  &:not(:last-child) {
+  margin-right: 30px;
+}
+}
+
+

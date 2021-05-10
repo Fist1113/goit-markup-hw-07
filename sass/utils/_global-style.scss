@@ -1,0 +1,62 @@
+
+body {
+  font-family: roboto, sans-serif;
+  background-color: var(--primary-white-color);
+  color: var(--base-text-color);
+  letter-spacing: 0.03em;
+}
+
+h1,
+h2,
+h3,
+ul,
+p {
+  margin: 0;
+  padding: 0px;
+}
+
+ul {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  list-style: none;
+}
+
+img {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* цвет заголовков */
+.features__title,
+.specialization__title,
+.team__title,
+.team-member__name,
+.project-card__title,
+.clients__title {
+  color: var(--title-text-color);
+}
